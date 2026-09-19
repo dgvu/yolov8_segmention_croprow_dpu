@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "croprow_yolov8.xmodel",
+    "kernel": [
+        "subgraph_CroprowRawWrapper__CroprowRawWrapper_SegmentationModel_model__C2f_model__C2f_12__Bottleneck_m__ModuleList_0__Conv_cv1__Conv2d_conv__input_173"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096"
+}
